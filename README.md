@@ -28,26 +28,26 @@ Downloads raw Samgsung Galaxy cellphone data and writes a tidy data set to a txt
 
 ### What run_analysis.R Does
 
-1) Creates folder for data called "celldata" in the computer's working directory
-2) Downloads zip folder and extract data files to celldata folder
-3) Bring in the raw data from the "X" files. Merge them together and 
-4) Create a set of the mean and standard deviation data
-5) Combine test and train data frames to one data frame. 
-6) Bring in the names for the xframe columns from features.txt to xframe
-7) Build a new dataframe that has only the mean and std columns from xframe
-8) Adds the label data to the raw data
-9) Rename and clean up column names to make more user friendly
-10) Adds the Subject data to the data table
-11) Create dataset that averages of each variable for the subject and activity
-12) Write the fileset to a txt file called tidydataset.txt in the UCI HAR Dataset folder
+* 1) Creates folder for data called "celldata" in the computer's working directory
+* 2) Downloads zip folder and extract data files to celldata folder
+* 3) Bring in the raw data from the "X" files. Merge them together and 
+* 4) Create a set of the mean and standard deviation data
+* 5) Combine test and train data frames to one data frame. 
+* 6) Bring in the names for the xframe columns from features.txt to xframe
+* 7) Build a new dataframe that has only the mean and std columns from xframe
+* 8) Adds the label data to the raw data
+* 9) Rename and clean up column names to make more user friendly
+* 10) Adds the Subject data to the data table
+* 11) Create dataset that averages of each variable for the subject and activity
+* 12) Write the fileset to a txt file called tidydataset.txt in the UCI HAR Dataset folder
 
 ### What you need to do to create the tidydataset file
 
-1) Install the following R Packages if needed:
-	downloader - This package will download and unzip the raw data
-	plyr - This package will be used for averaging each variable for each activity and subject
-2) Execute run_analysis.R
+* 1) Install the following R Packages if needed:
+* 	i. downloader - This package will download and unzip the raw data
+*	ii. plyr - This package will be used for averaging each variable for each activity and subject
+* 2) Execute run_analysis.R
 
-You can then find tidydataset.txt in the \celldata\UCI HAR Dataset\ directory
+* You can then find tidydataset.txt in the \celldata\UCI HAR Dataset\ directory
 	
 
